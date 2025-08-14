@@ -46,7 +46,7 @@ const page = () => {
                 content: (
                   <ul className="space-y-3 sm:space-y-4 text-white/90 text-sm sm:text-base">
                     <li className="flex items-start gap-2 sm:gap-3">
-                      <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-white/60 rounded-full mt-2 sm:mt-3 flex-shrink-0"></div>
+                      {/* <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-white/60 rounded-full mt-2 sm:mt-3 flex-shrink-0"></div> */}
                       <span><strong className="text-white">Bitcoin (BTC):</strong> {t("popular.bitcoin")}</span>
                     </li>
                   </ul>
@@ -59,9 +59,7 @@ const page = () => {
                   <ol className="space-y-3 sm:space-y-4 text-white/90 text-sm sm:text-base">
                     {[1, 2].map((step) => (
                       <li key={step} className="flex items-start gap-3 sm:gap-4">
-                        <div className="w-6 h-6 sm:w-7 sm:h-7 lg:w-8 lg:h-8 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full flex items-center justify-center text-white font-semibold text-xs sm:text-sm flex-shrink-0">
-                          {step}
-                        </div>
+                       
                         <span className="leading-relaxed">{t(`buy.step${step}`)}</span>
                       </li>
                     ))}
@@ -75,7 +73,7 @@ const page = () => {
                   <ul className="space-y-3 sm:space-y-4 text-white/90 text-sm sm:text-base">
                     {[1, 2].map((tip) => (
                       <li key={tip} className="flex items-start gap-2 sm:gap-3">
-                        <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-white/60 rounded-full mt-2 sm:mt-3 flex-shrink-0"></div>
+                        {/* <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-white/60 rounded-full mt-2 sm:mt-3 flex-shrink-0"></div> */}
                         <span className="leading-relaxed">{t(`tips.tip${tip}`)}</span>
                       </li>
                     ))}

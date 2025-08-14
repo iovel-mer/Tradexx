@@ -33,7 +33,7 @@ const Page = () => {
   return (
     <>
       <Header />
-      <main className="min-h-screen pt-6 sm:pt-8 md:pt-10 container mx-auto px-4 relative bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 overflow-hidden">
+      <main className="min-h-screen py-4 pt-6 sm:pt-8 md:pt-10 container mx-auto px-4 relative bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 overflow-hidden">
         
         <div className='p-4 sm:p-8 md:p-12 lg:p-20'>
           <Link 
@@ -75,7 +75,7 @@ const Page = () => {
             <article className="prose prose-lg prose-gray max-w-none">
               {/* Overview */}
               <section id="overview">
-                <Card className="bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all duration-300">
+                <Card className="bg-white/5 backdrop-blur-sm border mb-6 border-white/10 hover:bg-white/10 transition-all duration-300">
                   <CardContent className="p-4 sm:p-6 lg:p-8">
                     <div className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-6">
                       <div className="p-2 sm:p-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg sm:rounded-xl">
@@ -97,7 +97,7 @@ const Page = () => {
                 const IconComponent = section.icon;
                 return (
                   <section key={section.id} id={section.id}>
-                    <Card className="bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all duration-300">
+                    <Card className="bg-white/5 backdrop-blur-sm mb-6 border border-white/10 hover:bg-white/10 transition-all duration-300">
                       <CardContent className="p-4 sm:p-6 lg:p-8">
                         <div className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-6">
                           <div className="p-2 sm:p-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg sm:rounded-xl">

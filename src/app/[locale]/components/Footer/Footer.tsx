@@ -52,7 +52,7 @@ export default function Footer() {
             <div className='lg:col-span-2 md:col-span-2'>
               <div className='flex items-center space-x-4 mb-8'>
                 <span className='text-3xl font-bold tracking-wide text-white'>
-                  Tradex
+                  TradeX
                 </span>
               </div>
               <p className='text-gray-300 mb-8 max-w-sm text-lg leading-relaxed'>
@@ -124,7 +124,7 @@ export default function Footer() {
             <div className='flex flex-col w-full space-y-6'>
               <p className='text-gray-300 font-medium text-base leading-relaxed'>{tFooter('company_info')}</p>
               <p className='text-gray-300 font-medium text-base leading-relaxed'>{tFooter('risk_warning')}</p>
-              <p className='text-gray-400 text-base leading-relaxed'>{tFooter('execution_notice')}</p>
+              <p className='text-gray-300 text-base leading-relaxed'>{tFooter('execution_notice')}</p>
               <p className='text-gray-300 font-medium text-base leading-relaxed'>{tFooter('age_restriction')}</p>
             </div>
           </div>

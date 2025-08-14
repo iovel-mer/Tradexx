@@ -83,7 +83,7 @@ const Page = () => {
           <Link 
             href="/" 
             className='inline-flex items-center px-3 py-2 sm:px-4 bg-white/10 backdrop-blur-sm rounded-full 
-              text-xs sm:text-sm font-medium text-white'
+              text-xs sm:text-sm font-medium text-white hover:bg-white/20 hover:border-white/30 transition-all duration-300 group'
           >
             <Home className='h-3 w-3 sm:h-4 sm:w-4 mr-1 sm:mr-2 group-hover:-translate-x-1 transition-transform duration-300' />
             {t('backToHome')}
