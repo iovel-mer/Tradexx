@@ -15,7 +15,7 @@ export const Header: React.FC = () => {
   const t = useTranslations("Header")
 
   return (
-    <header className="bg-white/95 backdrop-blur-xl sticky top-0 z-50 border-b border-gray-200/50 shadow-sm">
+    <header className="bg-white/95  backdrop-blur-xl sticky top-0 z-50 border-b border-gray-200/50 shadow-sm">
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo and Brand */}
@@ -29,7 +29,7 @@ export const Header: React.FC = () => {
               </div>
               <div>
                 <h1 className="text-2xl font-bold text-gray-900 tracking-tight">
-                  Tradex
+                  TradeX
                 </h1>
               </div>
             </Link>

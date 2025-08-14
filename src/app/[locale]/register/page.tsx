@@ -463,15 +463,15 @@ export default function RegisterPage() {
           <div className="grid grid-cols-1 items-center sm:grid-cols-3 gap-6 pt-8 border-t border-white/20 mt-8">
             <div className="text-center">
               <p className="text-gray-300 text-sm mb-1">{t("volume")}</p>
-              <p className="text-3xl font-bold bg-blue-600">$5.2B+</p>
+              <p className="text-3xl font-bold bg-blue-600 rounded-2xl">$5.2B+</p>
             </div>
             <div className="text-center">
               <p className="text-gray-300 text-sm mb-1">{t("traders")}</p>
-              <p className="text-3xl font-bold bg-blue-600">750K+</p>
+              <p className="text-3xl font-bold bg-blue-600 rounded-2xl">750K+</p>
             </div>
             <div className="text-center">
               <p className="text-gray-300 text-sm mb-1">{t("countries")}</p>
-              <p className="text-3xl font-bold bg-blue-600">195+</p>
+              <p className="text-3xl font-bold bg-blue-600 rounded-2xl">195+</p>
             </div>
           </div>
         </div>

@@ -3,7 +3,7 @@
     "signIn": "Sign In",
     "getStarted": "Get Started",
     "brand": {
-      "name": "Tradex",
+      "name": "TradeX",
       "slogan": "Future of Innovation"
     }
   },
@@ -126,7 +126,7 @@
   },
  "about": {
       "backToHome": "Back to Home",
-      "title": "About Tradex",
+      "title": "About TradeX",
       "subtitle": "Pioneering decentralized autonomous exchanges through multi-dimensional blockchain protocols and synthetic asset generation.",
       "missionTitle": "Our Purpose",
       "missionText": "To architect the first truly autonomous digital economy where smart contracts orchestrate seamless value transfer across infinite parallel blockchain dimensions.",
@@ -187,7 +187,7 @@
     "message": "Payload",
     "placeholder": "Choose your inquiry type",
     "placeholderMessage": "Type your message like signing a smart contract...",
-    "button": "Ping Us",
+    "button": "Send Message",
     "options": {
       "general": "General Query",
       "technical": "Node/Wallet Issue",
@@ -233,7 +233,7 @@
 ,
  
   "docs": {
-    "backToHome": "Return to Homepage",
+    "backToHome": "Back to Home",
     "title": "Intro to Digital Coins",
     "whatIs": {
       "title": "Defining Digital Currency",
@@ -922,7 +922,7 @@
 "help": {
   "hero": {
     "badge": "Beta Access",
-    "title": "Welcome to Tradex Support",
+    "title": "Welcome to TradeX Support",
     "subtitle": "Your launchpad into crypto mastery"
   },
   "helpCenter": "Tradex Knowledge Base",

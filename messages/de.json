@@ -3,7 +3,7 @@
     "signIn": "Anmelden",
     "getStarted": "Loslegen",
     "brand": {
-      "name": "Tradex ",
+      "name": "TradeX ",
       "slogan": "Zukunft der Innovation"
     }
   },
@@ -95,8 +95,8 @@
     "movement": "24h Entwicklung"
   },
   "footer": {
-    "description": "Tradex ist die vertrauenswürdigste Handelsplattform für Kryptowährungen und bietet fortschrittliche Tools sowie erstklassige Sicherheit. Unsere Mission ist es, das beste Handelserlebnis zu schaffen und unseren Kunden die Freiheit zu geben, ohne Einschränkungen zu handeln.",
-    "company_info": "Tradex ist der Handelsname von Raw Trading Ltd, das von der Seychelles Financial Services Authority (FSA) mit der Lizenznummer SD016 als Wertpapierhändler reguliert wird.",
+    "description": "TradeX ist die vertrauenswürdigste Handelsplattform für Kryptowährungen und bietet fortschrittliche Tools sowie erstklassige Sicherheit. Unsere Mission ist es, das beste Handelserlebnis zu schaffen und unseren Kunden die Freiheit zu geben, ohne Einschränkungen zu handeln.",
+    "company_info": "TradeX ist der Handelsname von Raw Trading Ltd, das von der Seychelles Financial Services Authority (FSA) mit der Lizenznummer SD016 als Wertpapierhändler reguliert wird.",
     "risk_warning": "Risikohinweis: Der Handel mit Forex und CFDs birgt ein hohes Risiko für Ihr Kapital. Sie sollten nur mit Geld handeln, dessen Verlust Sie sich leisten können. Der Handel mit Forex und CFDs ist möglicherweise nicht für alle Anleger geeignet.",
     "execution_notice": "Die Ausführung von Trades, Preisgestaltung, Geschwindigkeit und der Zugriff auf Konten können durch verschiedene Faktoren beeinflusst werden, darunter Marktschwankungen, Auftragsgröße und -typ, Handelsvolumen und Systemleistung. In Zeiten hoher Marktaktivität oder eingeschränkter Systemverfügbarkeit kann es zu Verzögerungen beim Kontozugriff und bei der Auftragsausführung kommen. Anleger sollten sich dieser Risiken bewusst sein und entsprechend planen.",
     "age_restriction": "Sie müssen mindestens 18 Jahre alt sein oder das gesetzlich vorgeschriebene Mindestalter in Ihrem Land erreicht haben.",
@@ -216,7 +216,7 @@
     "message": "Nachricht",
     "placeholder": "Thema auswählen",
     "placeholderMessage": "Nachricht hier eingeben...",
-    "button": "Absenden",
+    "button": "Nachricht senden",
     "options": {
       "general": "Allgemeine Anfrage",
       "technical": "Technische Hilfe",

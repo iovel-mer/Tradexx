@@ -98,7 +98,7 @@ export default function Footer() {
                     <li key={link} className="relative group">
                       <Link
                         href={routeMapping[link as keyof typeof routeMapping]}
-                        className='text-gray-300 hover:text-white transition-all duration-300 cursor-pointer font-medium text-base relative inline-block group-hover:text-emerald-400'
+                        className='text-gray-300  cursor-pointer font-medium text-base relative inline-block '
                       >
                         <span className="relative z-10">
                           {tFooter(
@@ -107,8 +107,7 @@ export default function Footer() {
                             ]
                           )}
                         </span>
-                        {/* Hover underline effect */}
-                        <div className={`absolute bottom-0 left-0 h-0.5 bg-gradient-to-r ${section.color} w-0 group-hover:w-full transition-all duration-300`}></div>
+                       
                       </Link>
                     </li>
                   ))}
@@ -133,7 +132,7 @@ export default function Footer() {
           {/* Copyright */}
           <div className="text-center">
             <span className="text-gray-300 text-lg">
-              © {new Date().getFullYear()} Tradex {tFooter('rights')}
+              © {new Date().getFullYear()} TradeX {tFooter('rights')}
             </span>
           </div>
         </div>

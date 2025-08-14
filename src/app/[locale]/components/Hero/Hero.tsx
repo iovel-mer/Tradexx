@@ -69,7 +69,7 @@ export const Hero: React.FC = () => {
     <section className="min-h-screen bg-gradient-to-br from-gray-50 to-blue-50 relative overflow-hidden">
       <div className="absolute inset-0 bg-[linear-gradient(rgba(59,130,246,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(59,130,246,0.03)_1px,transparent_1px)] bg-[size:40px_40px] pointer-events-none" />
       
-      <div className="container mx-auto px-6 py-12 relative z-10">
+      <div className="container mx-auto px-6  relative z-10">
         <div className="grid lg:grid-cols-12 gap-12 items-center min-h-screen">
           {/* Hero Content */}
           <div className="lg:col-span-7 space-y-8">

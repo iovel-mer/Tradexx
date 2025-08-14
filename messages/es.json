@@ -3,7 +3,7 @@
     "signIn": "Iniciar Sesión",
     "getStarted": "Comenzar",
     "brand": {
-      "name": " Tradex ",
+      "name": " TradeX ",
       "slogan": "El Futuro de la Innovación"
     }
   },
@@ -216,7 +216,7 @@
       "message": "Mensaje",
       "placeholder": "Elige un tema",
       "placeholderMessage": "Escribe tu mensaje aquí...",
-      "button": "Enviar Mensaje",
+      "button": "Enviar mensaje",
       "options": {
         "general": "Consulta General",
         "technical": "Soporte Técnico",
@@ -260,7 +260,7 @@
     }
   },
   "docs": {
-    "backToHome": "Volver a Inicio",
+    "backToHome": "Volver al Inicio",
     "title": "Fundamentos de Criptomonedas",
     "whatIs": {
       "title": "¿Qué es una Criptomoneda?",

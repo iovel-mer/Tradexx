@@ -11,36 +11,31 @@ export default function TermsOfService() {
   return (
     <>
       <Header />
-      <main className="min-h-screen bg-gradient-to-br from-slate-950 via-blue-950 to-slate-900 text-white px-6 py-20 relative flex items-center justify-center">
-        {/* Decorative grid background */}
-        <div className="absolute inset-0 z-0 bg-[radial-gradient(circle,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:25px_25px] pointer-events-none" />
-
-        <div className="relative z-10 max-w-5xl w-full bg-white/5 backdrop-blur-md border border-white/10 rounded-3xl shadow-lg p-8 sm:p-12">
-          {/* Navigation link */}
-          <div className="mb-8">
-            <Link 
-              href="/" 
-              className="inline-flex items-center px-5 py-2.5 bg-indigo-700/20 hover:bg-indigo-700/40 border border-indigo-500/30 text-indigo-100 rounded-full text-sm font-medium transition-all duration-300 group"
-            >
-              <Home className="h-4 w-4 mr-2 group-hover:-translate-x-1 transition-transform duration-300" />
-              {t('goBackHome')}
-              <ArrowRight className="h-4 w-4 ml-2 rotate-180 group-hover:-translate-x-1 transition-transform duration-300" />
-            </Link>
-          </div>
-
-          {/* Title */}
-          <h1 className="text-5xl font-bold mb-10  bg-clip-text text-white">
+      <main className="min-h-screen pt-6 sm:pt-8 md:pt-10 container mx-auto px-4 relative bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 overflow-hidden">
+        
+        <div className='p-4 sm:p-8 md:p-12 lg:p-20'>
+          <Link 
+            href="/" 
+            className='inline-flex items-center px-3 py-2 sm:px-4 bg-white/10 backdrop-blur-sm rounded-full border border-white/20 hover:bg-white/20 hover:border-white/30 transition-all duration-300 group text-xs sm:text-sm font-medium text-white'
+          >
+            <Home className='h-3 w-3 sm:h-4 sm:w-4 mr-1 sm:mr-2 group-hover:-translate-x-1 transition-transform duration-300' />
+            {t('goBackHome')}
+            <ArrowRight className='h-3 w-3 sm:h-4 sm:w-4 ml-1 sm:ml-2 rotate-180 group-hover:-translate-x-1 transition-transform duration-300' />
+          </Link>
+        </div>
+                 
+        <div className="max-w-4xl mx-auto rounded-2xl shadow-xl p-6 sm:p-10 border border-gray-200">
+          <h1 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-white mb-4 sm:mb-6 leading-tight">
             {t("title")}
           </h1>
-
-          {/* Sections */}
-          <section className="space-y-10 text-sm sm:text-base leading-relaxed text-gray-200">
+          
+          <section className="space-y-6 sm:space-y-8 md:space-y-10 text-white leading-relaxed">
             {[...Array(8)].map((_, index) => (
               <div key={index}>
-                <h2 className="text-xl sm:text-2xl font-semibold text-white mb-2">
+                <h2 className="text-base sm:text-lg lg:text-xl xl:text-2xl font-semibold text-white mb-2 sm:mb-3 lg:mb-4">
                   {t(`section${index + 1}.title`)}
                 </h2>
-                <p className="text-gray-300">
+                <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
                   {t(`section${index + 1}.description`)}
                 </p>
               </div>

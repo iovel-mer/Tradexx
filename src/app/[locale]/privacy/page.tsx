@@ -12,95 +12,79 @@ const PrivacyPolicyPage = () => {
   return (
     <>
       <Header />
-      <div className="min-h-screen bg-gradient-to-br from-slate-950 via-blue-950 to-slate-900 relative overflow-hidden">
+      <main className="min-h-screen pt-6 sm:pt-8 md:pt-10 container mx-auto px-4 relative bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 overflow-hidden">
         
-        {/* Professional Grid Background */}
-        <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:40px_40px] pointer-events-none"></div>
-        
-        {/* Subtle Background Orbs */}
-        <div className="absolute top-20 right-20 w-64 h-64 bg-gradient-to-br from-blue-500/10 to-cyan-500/5 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute bottom-20 left-20 w-80 h-80 bg-gradient-to-br from-slate-600/10 to-blue-600/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '1s'}}></div>
-        
-        <div className="relative z-10 px-6 py-16">
-          <div className="max-w-5xl mx-auto">
-            
-            {/* Header Section */}
-            <div className="mb-12">
-              <Link 
-              href="/" 
-              className='inline-flex items-center px-6 py-3 mb-14 bg-violet-500/10 backdrop-blur-sm rounded-full border border-violet-300/30 hover:bg-violet-500/20 hover:border-violet-400/40 transition-all duration-300 group text-sm font-medium text-white shadow-lg hover:shadow-violet-500/20'
-            >
-              <Home className='h-4 w-4 mr-2 group-hover:-translate-x-1 transition-transform duration-300' />
-              {t('backToHome')}
-              <ArrowRight className='h-4 w-4 ml-2 rotate-180 group-hover:-translate-x-1 transition-transform duration-300' />
-            </Link>
-              
-              <div className="text-center mb-8">
-                <h1 className="text-5xl md:text-6xl font-black mb-4 bg-gradient-to-r from-white via-blue-200 to-white bg-clip-text text-transparent">
-                  {t("title")}
-                </h1>
-                <p className="text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
-                  {t("description")}
-                </p>
-                <div className="mt-6 inline-block px-4 py-2 bg-blue-500/20 backdrop-blur-sm border border-blue-400/30 rounded-full text-blue-300 text-sm font-medium">
-                  {t("lastUpdated")}
-                </div>
-              </div>
-            </div>
+        <div className='p-4 sm:p-8 md:p-12 lg:p-20'>
+          <Link 
+            href="/" 
+            className='inline-flex items-center px-3 py-2 sm:px-4 bg-white/10 backdrop-blur-sm rounded-full border border-white/20 hover:bg-white/20 hover:border-white/30 transition-all duration-300 group text-xs sm:text-sm font-medium text-white'
+          >
+            <Home className='h-3 w-3 sm:h-4 sm:w-4 mr-1 sm:mr-2 group-hover:-translate-x-1 transition-transform duration-300' />
+            {t('backToHome')}
+            <ArrowRight className='h-3 w-3 sm:h-4 sm:w-4 ml-1 sm:ml-2 rotate-180 group-hover:-translate-x-1 transition-transform duration-300' />
+          </Link>
+        </div>
+                 
+        <div className="max-w-4xl mx-auto rounded-2xl shadow-xl p-6 sm:p-10 border border-gray-200">
+          <h1 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-white mb-4 sm:mb-6 leading-tight">
+            {t("title")}
+          </h1>
+          
+          <CardDescription className="text-white/70 mb-6 sm:mb-8 text-base sm:text-lg">
+            {t("description")}
+          </CardDescription>
+          
+          <div className="space-y-6 sm:space-y-8 md:space-y-10 text-white leading-relaxed">
+            <p className="text-sm text-white/60">{t("lastUpdated")}</p>
 
-            {/* Content Sections */}
-            <div className="space-y-8">
-              {Array.from({ length: 2 }, (_, i) => {
+            <ol className="space-y-6 list-decimal list-inside">
+              {Array.from({ length: 9 }, (_, i) => {
                 const section = i + 1
                 return (
-                  <div 
-                    key={section}
-                    className="group relative bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-10 hover:bg-white/10 hover:border-white/20 transition-all duration-500 overflow-hidden"
-                  >
-                    {/* Section Number Badge */}
-                    <div className="absolute top-6 right-6 w-12 h-12 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-2xl flex items-center justify-center text-white font-black text-lg shadow-lg">
-                      {section}
-                    </div>
-                    
-                    {/* Hover Glow Effect */}
-                    <div className="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-cyan-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-3xl"></div>
-                    
-                    <div className="relative z-10">
-                      <h2 className="text-2xl md:text-3xl font-bold mb-6 text-white group-hover:text-blue-200 transition-colors duration-300">
-                        {t(`section${section}.title`)}
-                      </h2>
-                      
-                      <p className="text-lg text-slate-300 leading-relaxed mb-6 group-hover:text-slate-200 transition-colors duration-300">
-                        {t(`section${section}.description`)}
-                      </p>
-                      
-                      {t.raw(`section${section}.list`)?.length > 0 && (
-                        <div className="bg-slate-800/30 backdrop-blur-sm border border-slate-700/50 rounded-2xl p-6">
-                          <ul className="space-y-3">
-                            {t.raw(`section${section}.list`).map((item: string, idx: number) => (
-                              <li key={idx} className="flex items-start gap-3 text-slate-300">
-                                <div className="w-2 h-2 bg-gradient-to-r from-blue-400 to-cyan-400 rounded-full mt-2 flex-shrink-0"></div>
-                                <span className="text-base leading-relaxed">{item}</span>
-                              </li>
-                            ))}
-                          </ul>
-                        </div>
-                      )}
-                    </div>
-                  
-                   
-                  </div>
+                  <li key={section}>
+                    <h2 className="text-base sm:text-lg lg:text-xl xl:text-2xl font-semibold text-white mb-2 sm:mb-3 lg:mb-4">
+                      {t(`section${section}.title`)}
+                    </h2>
+                    <p className="text-white/90 text-sm sm:text-base leading-relaxed">
+                      {t(`section${section}.description`)}
+                    </p>
+                    {t.raw(`section${section}.list`)?.length > 0 && (
+                      <ul className="list-disc list-inside ml-4 mt-2 space-y-1 text-white/80">
+                        {t.raw(`section${section}.list`).map((item: string, idx: number) => (
+                          <li key={idx} className="text-sm sm:text-base">{item}</li>
+                        ))}
+                      </ul>
+                    )}
+                  </li>
                 )
               })}
+            </ol>
 
-           
+            <div>
+              <h2 className="text-base sm:text-lg lg:text-xl xl:text-2xl font-semibold text-white mb-2 sm:mb-3 lg:mb-4">
+                {t("section9.title")}
+              </h2>
+              <p className="text-white/90 text-sm sm:text-base leading-relaxed">
+                {t("section9.description")}
+              </p>
+              <ul className="list-disc list-inside ml-4 mt-2 space-y-1 text-white/80">
+                <li className="text-sm sm:text-base">
+                  {t("contact.email")}:{" "}
+                  <Link href="mailto:support@example.com" className="text-white hover:text-white/80 hover:underline transition-colors">
+                    support@example.com
+                  </Link>
+                </li>
+                <li className="text-sm sm:text-base">
+                  {t("contact.page")}:{" "}
+                  <Link href="/contact" className="text-white hover:text-white/80 hover:underline transition-colors">
+                    /contact
+                  </Link>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
-        
-        {/* Bottom Accent */}
-        <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-blue-500/50 to-transparent"></div>
-      </div>
+      </main>
     </>
   )
 }
