@@ -117,7 +117,7 @@ export const Hero: React.FC = () => {
 
             {/* Action Buttons */}
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 pt-2 sm:pt-4">
-              <Link href={`/${locale}/login`}>
+              <Link href={`/${locale}/register`}>
                 <Button className="w-full sm:w-auto flex items-center justify-center gap-2 px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-sm sm:text-base font-semibold 
                   bg-blue-600 text-white border-0 shadow-lg
                   hover:bg-blue-700 hover:shadow-xl hover:translate-y-[-2px]

@@ -11,9 +11,8 @@ const AboutPage = () => {
   return (
     <>
       <Header />
-      <section className="min-h-screen pt-6 sm:pt-8 md:pt-10 container mx-auto px-4 relative bg-gradient-to-br from-slate-950 via-blue-950 to-slate-900 overflow-hidden">
+      <section className="min-h-screen pt-6 sm:pt-8 md:pt-10 container mx-auto px-4 relative bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 overflow-hidden">
        
-        <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:40px_40px] sm:bg-[size:30px_30px] md:bg-[size:40px_40px] pointer-events-none" />
         
         <div className="p-4 sm:p-8 md:p-12 lg:p-20">
           <Link

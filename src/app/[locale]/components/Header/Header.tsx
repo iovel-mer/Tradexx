@@ -80,7 +80,7 @@ export const Header: React.FC = () => {
         {isMenuOpen && (
           <div className="md:hidden mt-4 space-y-3 p-4 bg-white rounded-xl border border-gray-200 shadow-lg">
             <Link href={`/${locale}/login`} onClick={() => setIsMenuOpen(false)} className="block">
-              <Button className="flex items-center gap-2 px-6 py-2.5 rounded-lg text-sm font-medium 
+              <Button className="flex w-full items-center gap-2 px-6 py-2.5 rounded-lg text-sm font-medium 
                 bg-blue-600 text-white border-0 shadow-sm
                   hover:translate-y-[-1px]
                 transition-all duration-200 ease-out cursor-pointer">
@@ -90,7 +90,7 @@ export const Header: React.FC = () => {
             </Link>
             
             <Link href={`/${locale}/register`} onClick={() => setIsMenuOpen(false)} className="block">
-              <Button className="flex items-center gap-2 px-6 py-2.5 rounded-lg text-sm font-medium 
+              <Button className="flex  w-full items-center gap-2 px-6 py-2.5 rounded-lg text-sm font-medium 
                 bg-blue-600 text-white border-0 shadow-sm
                   hover:translate-y-[-1px]
                 transition-all duration-200 ease-out cursor-pointer">
