@@ -91,7 +91,7 @@ export const Market: React.FC = () => {
   }
 
   return (
-    <section className="py-12 sm:py-16 md:py-20 lg:py-24 bg-gradient-to-br from-slate-50 via-white to-gray-100 min-h-screen relative overflow-hidden">
+    <section className="py-12 container mx-auto sm:py-16 md:py-20 lg:py-24 bg-gradient-to-br from-slate-50 via-white to-gray-100 min-h-screen relative overflow-hidden">
       {/* Subtle Grid Pattern */}
       <div className="absolute inset-0 bg-[linear-gradient(rgba(0,0,0,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(0,0,0,0.02)_1px,transparent_1px)] bg-[size:40px_40px] sm:bg-[size:50px_50px] lg:bg-[size:60px_60px] pointer-events-none" />
       
