@@ -295,7 +295,7 @@
   },
    "terms": {
       "title": "NFT Marktplatz Nutzungsbedingungen",
-      "goBackHome": "Zurück zur Hauptseite",
+      "goBackHome": "Zurück zur Startseite",
       "section1": {
         "title": "Digitale Eigentumsrechte",
         "description": "Durch den Kauf von NFTs auf unserem Marktplatz erwerben Sie die Eigentumsrechte an einzigartigen digitalen Assets, die auf der Blockchain gespeichert sind. Jedes NFT wird durch Smart Contracts authentifiziert und ist unveränderlich."
@@ -771,7 +771,7 @@
   },
   
    "Privacy": {
-      "backToHome": "Zurück zur DAO Platform",
+      "backToHome": "Zurück zur Startseite",
       "title": "DAO Governance Datenschutzrichtlinie", 
       "description": "Diese Richtlinie beschreibt, wie wir Ihre Daten in unserer dezentralen autonomen Organisation verarbeiten und dabei Transparenz und demokratische Teilnahme gewährleisten.",
       "lastUpdated": "Zuletzt aktualisiert: August 2025",
@@ -1207,7 +1207,7 @@
 },
 
 "privacy": {
-  "back": "← Zurück zur Startseite",
+  "back": "Zurück zur Startseite",
   "title": "Datenschutzerklärung",
   "intro": "Ihre Privatsphäre ist uns wichtig. Diese Richtlinie erklärt, wie wir Ihre Daten sammeln, nutzen, offenlegen und schützen.",
   "updated": "Zuletzt aktualisiert: Juli 2025",
