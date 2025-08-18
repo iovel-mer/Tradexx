@@ -59,7 +59,7 @@ export const Trading: React.FC = () => {
   ]
 
   return (
-    <section className="container mx-auto relative py-20 px-6 mx-auto overflow-hidden min-h-screen bg-gradient-to-br from-slate-50 via-white to-gray-100">
+    <section className=" mx-auto relative py-20 px-6  overflow-hidden min-h-screen bg-gradient-to-br from-slate-50 via-white to-gray-100">
       {/* Subtle Grid Pattern */}
       <div className="absolute inset-0 bg-[linear-gradient(rgba(0,0,0,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(0,0,0,0.02)_1px,transparent_1px)] bg-[size:60px_60px] pointer-events-none" />
       

@@ -15,8 +15,8 @@ export const Header: React.FC = () => {
   const t = useTranslations("Header")
 
   return (
-    <header className="bg-white/95 container mx-auto  backdrop-blur-xl sticky top-0 z-50 border-b border-gray-200/50 shadow-sm">
-      <div className="container mx-auto px-6 py-4">
+    <header className="bg-white/95  mx-auto  backdrop-blur-xl sticky top-0 z-50 border-b border-gray-200/50 shadow-sm">
+      <div className=" mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo and Brand */}
           <div className="flex items-center space-x-3">

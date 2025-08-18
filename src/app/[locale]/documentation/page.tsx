@@ -11,7 +11,7 @@ const page = () => {
   return (
     <>
       <Header />
-      <main className="min-h-screen pt-6 sm:pt-8 md:pt-10 container mx-auto px-4 relative bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 overflow-hidden">
+      <main className="min-h-screen pt-6 sm:pt-8 md:pt-10  mx-auto px-4 relative bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 overflow-hidden">
         
         <div className='p-4 sm:p-8 md:p-12 lg:p-20'>
           <Link 

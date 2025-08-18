@@ -66,11 +66,11 @@ export const Hero: React.FC = () => {
   }
 
   return (
-    <section className="min-h-screen container mx-auto bg-gradient-to-br from-gray-50 to-blue-50 relative overflow-hidden">
+    <section className="min-h-screen  mx-auto bg-gradient-to-br from-gray-50 to-blue-50 relative overflow-hidden">
       <div className="absolute inset-0 bg-[linear-gradient(rgba(59,130,246,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(59,130,246,0.03)_1px,transparent_1px)] bg-[size:30px_30px] sm:bg-[size:40px_40px] pointer-events-none" />
       
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-16 relative z-10">
-        <div className="grid lg:grid-cols-12 gap-8 sm:gap-10 lg:gap-12 items-center min-h-screen">
+        <div className="grid lg:grid-cols-12 gap-8 sm:gap-10 lg:gap-12 items-center pt-20">
           {/* Hero Content */}
           <div className="lg:col-span-7 space-y-6 sm:space-y-8">
             {/* Floating Badge */}
